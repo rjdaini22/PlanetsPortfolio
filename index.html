@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+  </head>
+  <body>
+    <div id="system"></div>
+
+    <div id="planets_container">
+      <span class="planet_span"
+        ><i class="fa-solid fa-globe" style="color: #f48037"></i>Who am I
+        ?</span
+      >
+      <span class="planet_span"
+        ><i class="fa-solid fa-globe" style="color: #67443b"></i>My
+        networks</span
+      >
+      <span class="planet_span"
+        ><i class="fa-solid fa-globe" style="color: #e39e1c"></i>My skills</span
+      >
+      <span class="planet_span"
+        ><i class="fa-solid fa-globe" style="color: #c6d3e3"></i>My
+        projects</span
+      >
+
+      <span class="planet_span"
+        ><i class="fa-solid fa-globe" style="color: #85addb"></i>My
+        hobbies</span
+      >
+    </div>
+
+    <script src="js/threeJS/three.min.js"></script>
+    <script src="js/threeJS/TweenMax.min.js"></script>
+    <script src="js/threeJS/OrbitControls.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4ee23b315a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/planets.js"></script>
+
+    <div id="name_container">
+      <p class="name_p">Portfolio</p>
+      <p class="infos_p">My custom portfolio, made with Three.js.</p>
+      <p class="name_date_p">Ryan Jdaini - Le Hô, 19/03/2022</p>
+    </div>
+
+    <script>
+      function closeCard() {
+        var card = document.getElementById("card");
+        card.style.transition = "opacity 0s";
+        card.style.opacity = "0";
+      }
+    </script>
+
+    <div id="card" class="container opacity">
+      <span id="current_card_id" style="display: none"></span>
+      <div class="box">
+        <i id="card_cross" class="fa-solid fa-xmark" onclick="closeCard()"></i>
+        <div class="text">
+          <h1 id="card_title"></h1>
+          <p id="card_p"></p>
+        </div>
+        <div id="card_link_tooltip"></div>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="noscript_container">
+        <p>Your browser does not support JavaScript !</p>
+      </div>
+    </noscript>
+
+    <div class="landscape_required_container">
+      <p>
+        <i class="fa-solid fa-display"></i><br />This experience requires a
+        computer
+      </p>
+    </div>
+  </body>
+</html>

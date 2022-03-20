@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,700,900");
+html {
+  background: #1d1135;
+  overflow: hidden;
+}
+
+#system {
+  background: #1d1135;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#name_container {
+  position: fixed;
+  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+
+.name_p {
+  font-family: "Muli", sans-serif;
+  font-size: 80px;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+}
+
+.infos_p {
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.name_date_p {
+  font-family: "Muli", sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+}
+
+#planets_container {
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  position: fixed;
+  z-index: 2;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.planet_span {
+  margin: 2px;
+}
+
+.planet_span i {
+  margin-right: 5px;
+}
+
+.noscript_container {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  background-color: #1d1135;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noscript_container p {
+  font-family: "Muli", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  color: white;
+  text-align: center;
+}
+
+.landscape_required_container {
+  display: none;
+}
+
+.landscape_required_container p {
+  font-family: "Muli", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  color: white;
+  text-align: center;
+}
+
+.landscape_required_container p {
+  font-family: "Muli", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (orientation: portrait) {
+  .landscape_required_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    background-color: #1d1135;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-device-width: 1079px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .landscape_required_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    background-color: #1d1135;
+    justify-content: center;
+    align-items: center;
+  }
+}

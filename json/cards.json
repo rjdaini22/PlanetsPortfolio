@@ -1,0 +1,35 @@
+{
+    "cards": [
+      {
+        "id": 0,
+        "title": "Who am I ?",
+        "paragraph": "My name is Ryan Jdaini - Le Ho. I am a 4th year computer engineering student. Welcome to my portfolio, this project was created with the Three.js library.",
+        "link_tooltip": "<div class='btn'><div class='tooltip'><a href='./documents/CV%20Ryan%20Jdaini%20-%20Le%20H%c3%b4.pdf' class='cta' download='Ryan_Le_Hô_Resume'>My resume</a><span class='tooltiptext'>Download</span></div></div>"
+      },
+      {
+        "id": 1,
+        "title": "My networks",
+        "paragraph": "On my GitHub, you can see my school projects and personal projects, I'm updating it regulary, I'm also trying a lot of new frameworks / languages so I still have a lot of things to upload on it. On my LinkedIn profile, you can learn more about my career.",
+        "link_tooltip": "<div class='btn_github'><div class='tooltip'><a href='https://github.com/RJdaini22' target='_blank' class='cta'><i class='fa-brands fa-github'></i></a><span class='tooltiptext'>My GitHub</span></div></div><div class='btn_linkedin'><div class='tooltip'><a href='https://www.linkedin.com/in/ryan-le-h%C3%B4-b3923b175/' target='_blank' class='cta'><i class='fa-brands fa-linkedin-in'></i></a><span class='tooltiptext'>My LinkedIn</span></div></div>"
+      },
+      {
+        "id": 2,
+        "title": "My skills",
+        "paragraph": "I can program in these languages :",
+        "link_tooltip": "<div ><div class='container_progress_1'><i class='fa-brands fa-css3-alt skill_logo'></i><i class='fa-brands fa-html5 skill_logo'></i><progress class='skill-1' max='100' value='100'></progress></div><div class='container_progress_2'><i class='fa-brands fa-php skill_logo'></i><progress class='skill-2' max='100' value='85'></progress></div><div class='container_progress_3'><i class='fa-brands fa-js-square skill_logo'></i><progress class='skill-3' max='100' value='75'></progress></div><div class='btn'><div class='tooltip'><a href='./documents/Skills%20Ryan%20Jdaini%20-%20Le%20H%c3%b4.pdf' class='cta' download='Ryan_Le_Hô_Skills'>More about my skills</a><span class='tooltiptext'>Download</span></div></div>"
+      },
+      {
+        "id": 3,
+        "title": "My projects",
+        "paragraph": "Click on the button to learn more about the project I've done in my career.",
+        "link_tooltip": "<div class='btn'><div class='tooltip'><a href='./documents/CV%20-%20Ryan%20Le%20H%c3%b4.pdf' class='cta'>Learn more</a><span class='tooltiptext'>Download</span></div></div>"
+      },
+      {
+        "id": 4,
+        "title": "My hobbies",
+        "paragraph": "Here is some of my hobbies, I still love a lot of other things !",
+        "link_tooltip": "<div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-weight-hanging'></i></a><span class='tooltiptext'>Workout</span></div></div><div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-plane-departure'></i></a><span class='tooltiptext'>Travel</span></div></div><div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-code'></i></a><span class='tooltiptext'>Development</span></div></div>"
+      }
+    ]
+  }
+  
