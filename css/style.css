@@ -117,10 +117,10 @@ html {
     align-items: center;
   }
 
-   #system,
-   #name_container {
-     display: none:
-   }
+  #system,
+  #name_container {
+   display: none:
+  }
 }
 
 @media only screen and (max-device-width: 1079px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -135,8 +135,8 @@ html {
     align-items: center;
   }
 
-   #system,
-   #name_container {
-     display: none:
-   }
+  #system,
+  #name_container {
+   display: none:
+  }
 }
