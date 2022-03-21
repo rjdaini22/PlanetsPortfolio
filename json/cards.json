@@ -4,7 +4,7 @@
         "id": 0,
         "title": "Who am I ?",
         "paragraph": "My name is Ryan Jdaini - Le Ho. I am a 4th year computer engineering student. Welcome to my portfolio, this project was created with the Three.js library.",
-        "link_tooltip": "<div class='btn'><div class='tooltip'><a href='./documents/CV%20Ryan%20Jdaini%20-%20Le%20H%c3%b4.pdf' class='cta' download='Ryan_Le_Hô_Resume'>My resume</a><span class='tooltiptext'>Download</span></div></div>"
+        "link_tooltip": "<div class='btn'><div class='tooltip'><a href='https://github.com/rjdaini22/PlanetsPortfolio/blob/main/documents/CV%20Ryan%20Jdaini%20-%20Le%20H%C3%B4.pdf' class='cta' download='Ryan_Le_Hô_Resume'>My resume</a><span class='tooltiptext'>Download</span></div></div>"
       },
       {
         "id": 1,
@@ -16,7 +16,7 @@
         "id": 2,
         "title": "My skills",
         "paragraph": "I can program in these languages :",
-        "link_tooltip": "<div ><div class='container_progress_1'><i class='fa-brands fa-css3-alt skill_logo'></i><i class='fa-brands fa-html5 skill_logo'></i><progress class='skill-1' max='100' value='100'></progress></div><div class='container_progress_2'><i class='fa-brands fa-php skill_logo'></i><progress class='skill-2' max='100' value='85'></progress></div><div class='container_progress_3'><i class='fa-brands fa-js-square skill_logo'></i><progress class='skill-3' max='100' value='75'></progress></div><div class='btn'><div class='tooltip'><a href='./documents/Skills%20Ryan%20Jdaini%20-%20Le%20H%c3%b4.pdf' class='cta' download='Ryan_Le_Hô_Skills'>More about my skills</a><span class='tooltiptext'>Download</span></div></div>"
+        "link_tooltip": "<div ><div class='container_progress_1'><i class='fa-brands fa-css3-alt skill_logo'></i><i class='fa-brands fa-html5 skill_logo'></i><progress class='skill-1' max='100' value='100'></progress></div><div class='container_progress_2'><i class='fa-brands fa-php skill_logo'></i><progress class='skill-2' max='100' value='85'></progress></div><div class='container_progress_3'><i class='fa-brands fa-js-square skill_logo'></i><progress class='skill-3' max='100' value='75'></progress></div><div class='btn'><div class='tooltip'><a href='https://github.com/rjdaini22/PlanetsPortfolio/blob/main/documents/Skills%20Ryan%20Jdaini%20-%20Le%20H%C3%B4.pdf' class='cta' download='Ryan_Le_Hô_Skills'>More about my skills</a><span class='tooltiptext'>Download</span></div></div>"
       },
       {
         "id": 3,
