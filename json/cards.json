@@ -28,7 +28,7 @@
         "id": 4,
         "title": "My hobbies",
         "paragraph": "Here is some of my hobbies, I still love a lot of other things !",
-        "link_tooltip": "<div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-weight-hanging'></i></a><span class='tooltiptext'>Workout</span></div></div><div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-plane-departure'></i></a><span class='tooltiptext'>Travel</span></div></div><div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-code'></i></a><span class='tooltiptext'>Development</span></div></div>"
+        "link_tooltip": "<div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-weight-hanging'></i></a><span class='tooltiptext'>Workout</span></div></div><div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-plane-departure'></i></a><span class='tooltiptext'>Travel</span></div></div><div class='btn_hobby'><div class='tooltip'><a href='#' class='cta'><i class='fa-solid fa-code'></i></a><span class='tooltiptext'>Coding</span></div></div>"
       }
     ]
   }
