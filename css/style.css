@@ -118,7 +118,8 @@ html {
   }
 
   #system,
-  #name_container {
+  #name_container,
+  #planets_container {
    display: none;
   }
 }
@@ -136,7 +137,8 @@ html {
   }
 
   #system,
-  #name_container {
+  #name_container,
+  #planets_container {
    display: none;
   }
 }
